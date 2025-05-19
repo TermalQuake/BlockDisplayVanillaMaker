@@ -1,0 +1,28 @@
+# Use the book title check in the create command
+useRequiredTitle: true
+
+# The title of the book for the create command (used only if useRequiredTitle = true)
+requiredTitle: "BDModel"
+
+# Maximum distance for bdvm remove
+maxDistance: 3.0
+
+# Default distance if no argument is specified
+defaultDistance: 2.0
+
+# All translatable messages used by the plugin
+messages:
+  onlyPlayers: "§6This command can only be run by a player."
+  usage: "§6Usage: §f/bdvm <create|remove|reload> [distance]"
+  noPermissionCreate: "§4You do not have permission to use /bdvm create."
+  noPermissionRemove: "§4You do not have permission to use /bdvm remove."
+  noPermissionReload: "§4You do not have permission to use /bdvm reload."
+  unknownSubcommand: "§6Unknown subcommand. Use 'create', 'remove' or 'reload'."
+  mustHoldBook: "§6You must be holding a written book in your main hand."
+  invalidBookTitle: "§6The book's title must be exactly §f\"%s\"."
+  invalidCommandStart: "§6The book's content must begin with §f\"/summon block_display\"."
+  successfullyCreated: "§aSuccessfully created."
+  removeSuccess: "§aSuccessfully removed."
+  maxDistanceExceeded: "§6Maximum allowable distance: §f%s"
+  invalidNumber: "§6Incorrect distance number format."
+  configReloaded: "§aThe plugin configuration has been reset."

@@ -1,0 +1,19 @@
+name: BlockDisplayVanillaMaker
+version: '1.0.0'
+main: LoLip_p.blockDisplayVanillaMaker.BlockDisplayVanillaMaker
+api-version: '1.21'
+commands:
+  bdvm:
+    description: Main command for block displays (/bdvm create|remove|reload [distance])
+    usage: /bdvm <create|remove|reload> [distance]
+
+permissions:
+  bdvm.create:
+    description: Allows you to create a BlockDisplay
+    default: op
+  bdvm.remove:
+    description: Allows you to delete BlockDisplay
+    default: op
+  bdvm.reload:
+    description: Allows you to reload the config
+    default: op
